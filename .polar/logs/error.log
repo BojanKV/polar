@@ -1,0 +1,621 @@
+[2019-12-02T09:54:32.053Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+[2019-12-02T09:54:33.421Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:33.422Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:33.769Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:33.769Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:59.214Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:59.686Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:54:59.687Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:00.037Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:00.038Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:10.781Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:11.190Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:11.190Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:11.533Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:11.533Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:32.253Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:32.698Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:32.698Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:33.033Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:33.033Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:33.627Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:34.048Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:34.049Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:34.393Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:34.393Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:35.161Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:35.587Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:35.588Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:35.921Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:35.921Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:36.909Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:37.227Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:37.227Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:37.565Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:37.566Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:44.497Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:44.787Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:44.788Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:45.125Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:45.126Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:57.086Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_CERT_AUTHORITY_INVALID (-202) loading 'https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.failListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:82:11)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:57.490Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:57.491Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:57.825Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:55:57.825Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:56:18.962Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_FAILED (-2) loading 'http://versionone.vc/wp-content/uploads/2019/11/Version-One-Startup-Handbook.pdf'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.stopLoadingListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:113:9)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:56:19.395Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:56:19.396Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:56:19.774Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:56:19.775Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:58:54.635Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_ABORTED (-3) loading 'https://www.kalzumeus.com/2012/01/23/salary-negotiation/'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.navigationListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:99:20)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:58:55.733Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:58:55.734Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:58:56.073Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T09:58:56.074Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:01:40.170Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_ABORTED (-3) loading 'https://vcstarterkit.substack.com/p/how-vcs-make-money'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.navigationListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:99:20)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:01:41.381Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:01:41.381Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:01:41.741Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:01:41.741Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:02:47.883Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_ABORTED (-3) loading 'https://architizer.com/blog/practice/details/passivhaus-complete-guide/'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.navigationListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:99:20)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:02:48.333Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:02:48.333Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:02:48.669Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
+[2019-12-02T10:02:48.669Z] [error] [error] [1.60.11] Unhandled rejection: 
+SentryError: HTTP Error (429): Creation of this event was denied due to rate limiting
+    at new SentryError (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/core/dist/error.js:21:28)
+    at ClientRequest.<anonymous> (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/transports/net.js:44:36)
+    at ClientRequest.emit (events.js:194:13)
+    at ClientRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.<anonymous> (/opt/Polar Bookshelf/resources/electron.asar/browser/api/net.js:207:12)
+    at URLRequest.emit (events.js:194:13)
+    at URLRequest.EventEmitter.emit (domain.js:469:20)
+    at URLRequest.topLevelDomainCallback (domain.js:124:23)
