@@ -7,10 +7,9 @@ Public repository for permanent storage and access of good-enough links and text
 - Download [Polar bookshelf](https://getpolarized.io/download.html)
 - Install [Polar bookshelf](https://getpolarized.io/)
 - Checkout this repo
-- Copy [.polar](https://github.com/BojanKV/polar/tree/master/.polar) directory to (for now) default location.
-  In linux, it is under: ```~/.polar```
+- To restore data to `~/.polar` directory, call `restore_data.sh` from git repo directory
 
-- To add new updates to git, copy `~/.polar` directory to local git repo location and commit changes
+- To add new updates to git repo, call `store_data.sh` to copy data from `~/.polar` to git repo and do `git add` of changes automatically
 
 ## TODO
 
