@@ -15116,3 +15116,24 @@ Error: Unable to send AtomFrameHostMsg_Message_Sync
     at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
     at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
     at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-17T09:05:58.747Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_FAILED (-2) loading 'http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.stopLoadingListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:113:9)
+    at WebContents.emit (events.js:199:15)
+[2019-12-17T09:29:15.109Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_FAILED (-2) loading 'https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/WeiherHirschfeld_2013_PolymorphicIdentifiersUniformResourceAccessInObjectiveSmalltalk_AcmDL.pdf'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.stopLoadingListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:113:9)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-17T09:30:06.607Z] [error] [error] [1.60.11] Loading URL failed: 
+Error: ERR_FAILED (-2) loading 'https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/WeiherHirschfeld_2019_StorageCombinators_AcmDL_Preprint.pdf'
+    at rejectAndCleanup (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:72:21)
+    at WebContents.stopLoadingListener (/opt/Polar Bookshelf/resources/electron.asar/browser/navigation-controller.js:113:9)
+    at WebContents.emit (events.js:199:15)
+    at WebContents.EventEmitter.emit (domain.js:469:20)
+    at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:124:23)
