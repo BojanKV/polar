@@ -15137,3 +15137,233 @@ Error: ERR_FAILED (-2) loading 'https://www.hpi.uni-potsdam.de/hirschfeld/public
     at WebContents.EventEmitter.emit (domain.js:469:20)
     at WebContents.emitter.emit (/opt/Polar Bookshelf/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:50:20)
     at WebContents.topLevelDomainCallback (domain.js:124:23)
+[2019-12-20T08:51:39.859Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Invalid guestInstanceId: 1
+    at Object.getGuestForWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\browser\guest-view-manager.js:419:11)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\browser\rpc-server.js:446:34
+    at EventEmitter.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\browser\rpc-server.js:275:21)
+    at EventEmitter.emit (events.js:194:13)
+    at WebContents.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\browser\api\web-contents.js:418:21)
+    at WebContents.emit (events.js:194:13)
+[2019-12-20T08:51:39.871Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-20T08:51:39.875Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-20T08:51:39.878Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-20T08:51:39.880Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-20T08:51:39.882Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2019-12-20T08:51:39.884Z] [error] [error] [1.60.11] Unable to resize in background: 
+Error: Unable to send AtomFrameHostMsg_Message_Sync
+    at EventEmitter.ipcRenderer.sendSync (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\ipc-renderer-internal.js:15:18)
+    at exports.getGuestWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\api\remote.js:341:28)
+    at HTMLElement.WebViewElement.getWebContents (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\electron.asar\renderer\web-view\web-view-impl.js:216:12)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:76:41)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeightForWebview (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:75:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:65:29)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.getDocumentHeight (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:60:16)
+    at FrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:28:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:4:12)
+    at FrameResizer.resize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\FrameResizer.js:26:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:54:38)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.doBackgroundResize (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:52:16)
+    at BackgroundFrameResizer.<anonymous> (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:40:39)
+    at Generator.next (<anonymous>)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:4:12)
+    at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
+    at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
+    at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
