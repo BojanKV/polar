@@ -15367,3 +15367,11 @@ Error: Unable to send AtomFrameHostMsg_Message_Sync
     at BackgroundFrameResizer.resizeParentInBackground (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:33:16)
     at C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\web\js\viewer\html\BackgroundFrameResizer.js:46:22
     at wrapped (C:\Users\BMI1LUD\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\browser\dist\index.js:3221:27)
+[2020-01-20T13:39:29.894Z] [error] [error] [1.90.0] Loading URL failed: 
+Error: ERR_FAILED (-2) loading 'http://regot.chalmers.se/wp-content/uploads/2018/05/Wohlrab2018_Boundary_Objects_ICSSP.pdf'
+    at rejectAndCleanup (electron/js2c/browser_init.js:5819:21)
+    at WebContents.stopLoadingListener (electron/js2c/browser_init.js:5860:9)
+    at WebContents.emit (events.js:208:15)
+    at WebContents.EventEmitter.emit (domain.js:476:20)
+    at WebContents.emitter.emit (C:\Users\BMILADIN\AppData\Local\Programs\polar-bookshelf\resources\app.asar\node_modules\@sentry\electron\dist\main\integrations\electron.js:50:20)
+    at WebContents.topLevelDomainCallback (domain.js:131:23)
